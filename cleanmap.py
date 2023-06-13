@@ -66,7 +66,7 @@ try:
             for url in urls_with_ports:
                 output_file.write(url + "\n")
 
-        print(f"Output saved in {output_file_path}")
+        print(BRIGHT_GREEN + f"Output saved in {output_file_path}" + ENDC))
     else:
         print("Invalid option. Please enter either '1' or '2' for the output option.")
 
